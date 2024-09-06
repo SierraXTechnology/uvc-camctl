@@ -1,0 +1,22 @@
+{
+  "name": "uvc-camctl",
+  "version": "0.0.1",
+  "description": "Node module to control UVC compliant cameras",
+  "main": "uvc-camctl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SierraXTechnology/uvc-camctl.git"
+  },
+  "keywords": [
+    "UVC"
+  ],
+  "author": "Mark Cooper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SierraXTechnology/uvc-camctl/issues"
+  },
+  "homepage": "https://github.com/SierraXTechnology/uvc-camctl#readme"
+}
