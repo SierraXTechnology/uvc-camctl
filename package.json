@@ -1,6 +1,6 @@
 {
   "name": "uvc-camctl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node module to control UVC compliant cameras",
   "main": "uvc-camctl.js",
   "scripts": {
