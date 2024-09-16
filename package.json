@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/SierraXTechnology/uvc-camctl#readme",
   "dependencies": {
-    "usb": "^2.13.0"
+    "usb": "latest"
   }
 }
