@@ -31,8 +31,8 @@ var UVC_GET_MAX	= 0x83;
 var UVC_INPUT_TERMINAL_ID = 0x01;
 var UVC_PROCESSING_UNIT_ID = 0x03;
 
-// See USB Device Class Definition for Video Devices Revision 1.1
-// http://www.usb.org/developers/docs/devclass_docs/
+// See USB Device Class Definition for Video Devices Revision v1.5
+// https://www.usb.org/document-library/video-class-v15-document-set
 // Specifically:
 // - 4.2 VideoControl Requests
 // - A.9. Control Selector Codes
@@ -379,3 +379,4 @@ function isWebcam(device){
   return device.deviceDescriptor.bDeviceClass === 239 &&
     device.deviceDescriptor.bDeviceSubClass === 2;
 }
+
